@@ -1,24 +1,47 @@
+body {
+    background-color: #f2f2f2;
+    position: relative;
+  }
+
 #header{
-    padding: 0 200px;
-    border-bottom: 5px inset gray;
-    background-color:rgb(173, 173, 173);
+    background-color:black;
+    color: white;
+    padding: 0 200px;  
+}  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    
+    box-shadow: 2px 5px 8px rgb(155, 153, 153); 
+}
+.stickNav {
+    color: white
 }
 #name {
-    font-size: 60px;
-    background-color: #4aaaa5;
-    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    /* background-color: #4aaaa5; */
+    /* color: white; */
     margin-bottom: 0;
-    padding: 5px 40px;
+    padding: 10px 20px;
 }
+h1 {
+    font-size: 50px;
+    color: #4aaaa5;
+    text-align: center;
+}
+
 #aboutBox {
-    margin-top: 20px;
-    background-color: white;
-    border: 5px solid #dddddd
+    
+    background-color: #062F48;
+    padding: 100px 0px;
 }
 #portfolioBox {
-    margin-top: 20px;
-    background-color: rgb(219, 212, 212);
-    padding-bottom: 40px;
+    
+    background-color: #813772;
+    padding: 100px 0px;
 }
 .imageBox {
     position: relative;
@@ -32,13 +55,19 @@
     position: absolute;
     bottom: 50px;
 }
-
-
+#contactBox {
+    
+    background-color: #882601;
+    padding: 100px 0px;
+}
+#submit{
+    margin-bottom: 20px;
+    background-color: #062F48;
+}
 
 #footer {
     color:white;
-    background-color: #666;
+    background-color: black;
     padding: 30px;
-    margin-top: 35px;
-    border-top: 8pt solid rgb(54, 153, 54);
+    margin-top: 35px;  
 }
