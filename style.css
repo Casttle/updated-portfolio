@@ -1,0 +1,44 @@
+#header{
+    padding: 0 200px;
+    border-bottom: 5px inset gray;
+    background-color:rgb(173, 173, 173);
+}
+#name {
+    font-size: 60px;
+    background-color: #4aaaa5;
+    color: white;
+    margin-bottom: 0;
+    padding: 5px 40px;
+}
+#aboutBox {
+    margin-top: 20px;
+    background-color: white;
+    border: 5px solid #dddddd
+}
+#portfolioBox {
+    margin-top: 20px;
+    background-color: rgb(219, 212, 212);
+    padding-bottom: 40px;
+}
+.imageBox {
+    position: relative;
+}
+.description {
+    text-align: center;
+    width: 300px;
+    padding: 10px 0;
+    background-color: white;
+    color: #4aaaa5;
+    position: absolute;
+    bottom: 50px;
+}
+
+
+
+#footer {
+    color:white;
+    background-color: #666;
+    padding: 30px;
+    margin-top: 35px;
+    border-top: 8pt solid rgb(54, 153, 54);
+}
