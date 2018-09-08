@@ -1,5 +1,5 @@
 body {
-    background-color: #f2f2f2;
+    background-color: rgb(3, 33, 51);
     position: relative;
   }
 
@@ -44,7 +44,13 @@ h1 {
     padding: 100px 0px;
 }
 .imageBox {
+    padding-left: 100px;
     position: relative;
+}
+img {
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 0px 20px 1px #062F48
 }
 .description {
     text-align: center;
@@ -54,9 +60,12 @@ h1 {
     color: #4aaaa5;
     position: absolute;
     bottom: 50px;
+    opacity: .3;
+}
+.description:hover {
+    opacity: 1;
 }
 #contactBox {
-    
     background-color: #882601;
     padding: 100px 0px;
 }
