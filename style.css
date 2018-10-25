@@ -22,8 +22,6 @@ body {
 #name {
     font-size: 30px;
     font-weight: 600;
-    /* background-color: #4aaaa5; */
-    /* color: white; */
     margin-bottom: 0;
     padding: 10px 20px;
 }
@@ -38,6 +36,10 @@ h1 {
     background-color: #062F48;
     padding: 100px 0px;
 }
+.aboutParah{
+    padding: 100px 20px 100px 270px;
+}
+
 #portfolioBox {
     
     background-color: #813772;
@@ -48,8 +50,6 @@ h1 {
     position: relative;
 }
 img {
-    /* height: 300px;
-    width: 300px; */
     box-shadow: 0px 0px 20px 1px #062F48
 }
 .description {
@@ -73,6 +73,9 @@ a:link {
     color: #4aaaa5;
     background-color: transparent;
     text-decoration: none;
+}
+a:visited {
+    color: #4aaaa5;
 }
 h2 {
     text-align: center;
