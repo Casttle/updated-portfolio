@@ -1,5 +1,5 @@
 // Initialize Firebase
-var config = {
+const config = {
     apiKey: "AIzaSyAmpYGsQQTcMPsGeg5jXH3PVPT9zXbxqwI",
     authDomain: "contact-page-929bb.firebaseapp.com",
     databaseURL: "https://contact-page-929bb.firebaseio.com",
@@ -10,7 +10,7 @@ var config = {
   firebase.initializeApp(config);
   const database = firebase.database();
 
-$("#submit").on("click", function(event){
+$("#submit").on("click", (event) => {
     event.preventDefault();
     const name = $("#nameBox").val();
     const email = $("#emailBox").val();
@@ -25,12 +25,12 @@ $("#submit").on("click", function(event){
 });
 
 
-window.onscroll = function() {headerStick()};
+window.onscroll = () => {headerStick()};
 
-var header = document.getElementById("header");
-var sticky = header.offsetTop;
+const header = document.getElementById("header");
+const sticky = header.offsetTop;
 
-function headerStick() {
+const headerStick = () => {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
   } else {
